@@ -11,9 +11,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@TechnoUB User"
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
 """ For .alive command, check if the bot is running.  """
-    await alive.edit("**`Bot Status”9Õ7`**\n\n"
-                     "**7¼3Telethon version:- 6.9.0**\n¡ô 7›67›67›67›67›67›6 7Ç47À07Ç5 7›67›67›67›67›67›6 ¡ô\n**7¼3Python: 3.7.3**\n¡ô 7›67›67›67›67›67›6 7Ç47À07Ç5 7›67›67›67›67›67›6 ¡ô\n"
-                     "**7¼3Bot Made By:- @TechnoUB\n¡ô 7›67›67›67›67›67›6 7Ç47À07Ç5 7›67›67›67›67›67›6 ¡ô\n**"
-                     "**7¼3Database Status: Databases functioning normally!**\n¡ô 7›67›67›67›67›67›6 7Ç47À07Ç5 7›67›67›67›67›67›6 ¡ô\n”9Ù2Always with you, my peru master!\n`"
+    await alive.edit("**`Bot StatusðŸ‘»`**\n\n"
+                     "**âœ…Telethon version:- 6.9.0**\nâ—† â–¬â–¬â–¬â–¬â–¬â–¬ â´âœªâµ â–¬â–¬â–¬â–¬â–¬â–¬ â—†\n**âœ…Python: 3.7.3**\nâ—† â–¬â–¬â–¬â–¬â–¬â–¬ â´âœªâµ â–¬â–¬â–¬â–¬â–¬â–¬ â—†\n"
+                     "**âœ…Bot Made By:- @TechnoUB\nâ—† â–¬â–¬â–¬â–¬â–¬â–¬ â´âœªâµ â–¬â–¬â–¬â–¬â–¬â–¬ â—†\n**"
+                     "**âœ…Database Status: Databases functioning normally!**\nâ—† â–¬â–¬â–¬â–¬â–¬â–¬ â´âœªâµ â–¬â–¬â–¬â–¬â–¬â–¬ â—†\nðŸ’žAlways with you, my peru master!\n`"
                      f"`My peru owner`: {DEFAULTUSER}\n"
                      "[Deploy this userbot Now](https://github.com/TechnoUB/TechnoUserbot)")
